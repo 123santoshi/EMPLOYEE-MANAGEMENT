@@ -1,0 +1,46 @@
+/* HR.css */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card-header {
+    background: rgb(248, 217, 222) !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align:center;
+  
+  }
+  
+  .card-body p {
+    margin: 10px;
+  }
+  .card-body{
+    padding: 10px;
+    margin:5px;
+    font-size: 20px;
+  }
+  .viewfulldetails-btn{
+    background: lightcyan;
+    color:black;
+    border:2px solid black;
+    font-size:20px;
+    padding:10px;
+    text-align: center !important;
+
+  }
+  .card-footer{
+    text-align: center;
+  }

@@ -1,0 +1,66 @@
+.emails-container {
+    max-width: 600px;
+    margin: 50px auto ;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .send-email {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .sendemail-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .email-template form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+  
+  .email-template label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size:25px;
+  }
+  
+  .email-template input,
+  .email-template textarea {
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .email-template button {
+    padding:15px;
+    border: none;
+    border-radius: 5px;
+    background: #b0cdf2;
+    color: blaCK;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .email-template button:hover {
+    background: #0056b3;
+  }
+  
+  .ticket-heading{
+    font-weight: bold;
+    font-size: 30px;
+    color:red;
+    margin:30px;
+  }

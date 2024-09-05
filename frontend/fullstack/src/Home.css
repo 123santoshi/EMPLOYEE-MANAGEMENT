@@ -1,0 +1,48 @@
+.home-container {
+    
+    background: rgb(189, 234, 244);
+  }
+  
+  
+  .trial-heading h1{
+    font-weight: bold;
+  }
+  .left-navbar {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 150px;
+
+  }
+  
+  .left-navbar ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .left-navbar li {
+    margin: 0 10px; 
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    border:2px solid red;
+    background: white;
+    width:100px;
+  }
+  
+  .left-navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+  

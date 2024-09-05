@@ -1,0 +1,82 @@
+
+.teams-container {
+    width: 50%;
+    margin: 0 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-team {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .addteam-btn{
+    border:2px solid lightblue;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width:200px  !important;
+  }
+  
+  .addteam-btn:hover {
+    background-color: #bbdafb;
+  }
+  
+  .teams-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  .teams-table th, .teams-table td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+   
+  }
+  
+  .teams-table th {
+    background-color: rgb(244, 210, 216);
+    font-weight: bold;
+    color:black;
+    font-size:20px;
+  }
+  
+  .teams-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .teams-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .teams-table .btn {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+.btn-info {
+    background-color: blue;
+  }
+  
+ .btn-info:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: red;
+  }
+  
+ .btn-danger:hover {
+    background-color: #c82333;
+  }
+  

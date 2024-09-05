@@ -1,0 +1,137 @@
+/* Hrdetails.css */
+
+/* General styles */
+.user-profile {
+  padding: 20px;
+  
+  font-family: Arial, sans-serif;
+}
+.form-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+
+}
+
+
+
+.edit-button{
+  text-align: right;
+  padding:10px;
+  
+}
+h2.profile-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.edit-heading {
+  margin-bottom: 20px;
+  color:red;
+  text-align: center;
+}
+
+form {
+  background: rgb(228, 235, 238);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+label strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select ,option{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+input[type="radio"] + span {
+  margin-right: 30px;
+  font-size: 20px;
+
+}
+
+input[readonly] {
+  background-color: #e9e9e9;
+}
+
+button[type="submit"],
+button[type="button"] {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.profile .edit-heading button,
+.contact-info .edit-heading button,
+.job-info .edit-heading button {
+  margin-left: 10px;
+}
+
+
+.edit-profile{
+  margin:auto;
+  width:800px;
+}
+
+.submitandcancel-btn{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+
+.save-btn ,.cancel-btn{
+  padding: 10px;
+  width:150px  !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  margin-left:10px;
+}
+
+.edit-button button{
+  padding: 10px;
+  width:150px  !important;
+  border-radius: 5px;
+  cursor: pointer;
+}

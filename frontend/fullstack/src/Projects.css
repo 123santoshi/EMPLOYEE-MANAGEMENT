@@ -1,0 +1,102 @@
+/* Projects.css */
+
+.project-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.addtask-div {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.addtask-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addtask-btn:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: #c7e0f8;
+  padding: 10px;
+  border: 1px solid #1c1c1e;
+  font-weight: bold;
+  color: rgb(241, 36, 36);
+  font-size: 25px;
+
+
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.task-div {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto; /* Center the form */
+}
+
+.addtask-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addtask-form input,
+.addtask-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.addtask-form select option {
+  color: black; /* Options in select should be black */
+}
+
+.addtask-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addtask-form button:hover {
+  background-color: #218838;
+}
+.edittask-btn{
+  padding:10px;
+  background:skyblue;
+  margin:10px;
+  border-radius: 5%;
+
+}
+.deletetask-btn{
+  padding:10px;
+  background: rgb(251, 157, 157);
+  margin:10px;
+  border-radius: 5%;
+
+}
